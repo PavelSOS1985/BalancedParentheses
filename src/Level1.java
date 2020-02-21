@@ -17,4 +17,13 @@ public class Level1 {
         }
         return res.toString();
     }
+
+    public static void Test1() {
+        if (!Level1.BalancedParentheses(2).equals("(()) ()()")) {
+            System.out.println("Fail");
+        } else {
+            System.out.println("Success");
+        }
+    }
+
 }
